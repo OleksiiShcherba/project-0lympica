@@ -10,7 +10,7 @@ img {
 
 /*-------MOB-------*/
 .rent-a-yacht {
-  padding: 80px 0;
+  padding-bottom: 80px;
   font-family: 'inter', sans-serif;
   background-color: #0e1823;
   color: #fbfbfb;
@@ -18,7 +18,7 @@ img {
 }
 
 .rent-container {
-  max-width: 335px;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -49,8 +49,8 @@ img {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding-left: 18px;
-  max-width: 315px;
-  height: 40px;
+  max-width: 335px;
+  height: 42px;
   background-color: transparent;
   font-weight: 400;
   font-size: 14px;
@@ -77,8 +77,8 @@ img {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 14px 14px 18px;
-  max-width: 301px;
-  height: 78px;
+  max-width: 335px;
+  height: 108px;
   background-color: transparent;
   font-weight: 400;
   font-size: 14px;
@@ -95,7 +95,7 @@ img {
 .rent-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.17;
   color: rgba(251, 251, 251, 0.4);
 }
 
@@ -129,4 +129,95 @@ img {
   max-width: 335px;
   border-radius: 24px;
 }
+/*-------END-------*/
+
+/*-------TABLET-------*/
+
+@media screen and (min-width: 768px) {
+  .rent-a-yacht {
+    padding-bottom: 150px;
+  }
+
+  .rent-container {
+    max-width: 768px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rent-content-wrap {
+    min-width: 473px;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .rent-input {
+    max-width: 472px;
+    height: 54px;
+  }
+
+  .rent-input::placeholder {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .rent-textarea {
+    padding: 18px;
+    max-width: 472px;
+    height: 116px;
+  }
+
+  .rent-textarea::placeholder {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .rent-send-btn {
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 100px;
+  }
+
+  .rent-form-fields {
+    margin-bottom: 50px;
+  }
+
+  .rent-img {
+    max-width: 768px;
+  }
+}
+/*-------END-------*/
+/*-------DESKTOP-------*/
+
+@media screen and (min-width: 1280px) {
+  .rent-container {
+    max-width: 1280px;
+    padding: 0 50px;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .rent-content-wrap {
+    min-width: 472px;
+  }
+
+  .rent-send-btn {
+    margin-bottom: 0;
+  }
+
+  .rent-img {
+    max-width: 658px;
+    height: 536px;
+    object-fit: none;
+    margin-right: 50px;
+  }
+}
+
 /*-------END-------*/
