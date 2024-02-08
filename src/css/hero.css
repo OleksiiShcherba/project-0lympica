@@ -72,7 +72,9 @@
         font-size: 16px;
         line-height: 1.4;
 
-        padding: 0 53.5px;
+        max-width: 597px;
+        margin-left: auto;
+        margin-right: auto;
 
         margin-bottom: 48px;
     }
@@ -98,15 +100,10 @@
         top: -235px;
     } */
 
-    .hero-container {
-        max-width: 1001px;
-    }
-
     .hero-header {
         font-size: 80px;
-    }
-
-    .hero-paragraf {
-        padding: 0 202px;
+        max-width: 1001px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
