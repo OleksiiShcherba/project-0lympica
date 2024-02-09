@@ -2,14 +2,18 @@
 /*-OUR_YACHTS_____
 ---OUR_YACHTS_____
 ---OUR_YACHTS_____*/
+.cut-text { 
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px; 
+    height: 1.2em; 
+    white-space: nowrap;
+  }
 
 .our-yachts {
-    /*margin-top: 80px;*/
     margin-bottom: 80px;
 }
-.container {
-    width: 320px;
-}
+
 .ouryachts-title {
     font-weight: 500;
     font-size: 28px;
@@ -115,12 +119,13 @@ border-radius: 15px;
 width: 141px;
 height: 46px;
 }
-
-
+.ouryachts-link:hover {
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+/* tablet */
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-    }
+   
     .ouryachts-title {
         font-size: 48px;
         line-height: 1;
@@ -154,9 +159,14 @@ overflow: hidden;
     font-size: 13px;
 line-height: 1.18;
 }
-
+.ouryachts-link {
+    font-size: 18px;
+line-height: 1.1;
+width: 179px;
+height: 52px;
 }
-
+}
+/* desktop-1280 */
 @media screen and (min-width: 1280px) {
      .ouryachts-list {
         gap: 25px;
@@ -167,4 +177,16 @@ line-height: 1.18;
     .ouryachts-item {
         width: calc((100% - 50px) / 3); 
     }
+    .ouryachts-text-item {
+        width: 177px;
+    }
 }
+/* desktop-1440 */
+@media screen and (min-width: 1440px) {
+    .ouryachts-list {
+        gap: 32px;
+    }
+    .ouryachts-item {
+        width: calc((100% - 64px) / 3); 
+    }
+} 
