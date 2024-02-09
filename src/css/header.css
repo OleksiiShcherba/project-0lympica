@@ -11,6 +11,7 @@
   --transition: 300ms linear;
 }
 
+<<<<<<< HEAD
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -26,6 +27,8 @@
   overflow: hidden;
 }
 
+=======
+>>>>>>> master
 .header-container {
   margin: 0 auto;
   padding: 0 20px;
@@ -36,6 +39,10 @@
 }
 
 .header-section {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> master
   background-image: url(../header-img/phone-yacht.png);
   background-position: center;
   background-size: cover;
@@ -45,6 +52,7 @@
 
 .header-navigation {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   max-height: 42px;
 
@@ -53,6 +61,42 @@
 
 .nav-list {
   display: flex;
+=======
+  justify-content: space-between;
+  align-items: center;
+  max-height: 48px;
+  max-height: 42px;
+
+  padding: 12px 20px;
+
+  background-color: var(--white);
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+}
+
+.button-list {
+  display: none;
+}
+
+.nav-list {
+<<<<<<< Updated upstream
+  display: none;
+}
+
+.header-burger {
+  border: none;
+  background-color: transparent;
+=======
+  display: flex;
+=======
+  background-image: url(//src/img/header-img/phone-yacht.png);
+}
+
+.text {
+  background-color: tomato;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> master
 }
 
 @media screen and (min-width: 768px) {
@@ -61,12 +105,17 @@
     padding: 0 32px;
   }
   .header-section {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> master
     background-image: url(../header-img/tablet-yacht.png);
     padding-bottom: 280px;
   }
   .header-navigation {
     max-height: 48px;
 
+<<<<<<< HEAD
     justify-content: space-between;
 
     padding: 0 28px;
@@ -74,6 +123,13 @@
     background-color: var(--white);
     border: 1px solid #fbfbfb;
     border-radius: 8px;
+=======
+    padding: 0 28px;
+  }
+  .button-list {
+    display: flex;
+    gap: 4px;
+>>>>>>> master
   }
   .header-button {
     font-weight: 400;
@@ -97,8 +153,20 @@
     transition: var(--transition);
   }
   .nav-list {
+<<<<<<< HEAD
     gap: 8px;
     align-items: center;
+=======
+    display: flex;
+    gap: 8px;
+    align-items: center;
+=======
+    background-image: url(//src/img/header-img/tablet-yacht.png);
+>>>>>>> Stashed changes
+  }
+  .header-burger {
+    display: none;
+>>>>>>> master
   }
 }
 
@@ -108,6 +176,10 @@
     padding: 0 100px;
   }
   .header-section {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> master
     background-image: url(../header-img/desctop-yacht.png);
     padding-bottom: 235px;
   }
@@ -123,5 +195,11 @@
   }
   .header-container {
     max-width: 1440px;
+<<<<<<< HEAD
+=======
+=======
+    background-image: url(//src/img/header-img/desctop-yacht.png);
+>>>>>>> Stashed changes
+>>>>>>> master
   }
 }
