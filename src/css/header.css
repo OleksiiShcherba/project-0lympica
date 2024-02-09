@@ -61,11 +61,6 @@
   background-image: url(//src/img/header-img/phone-yacht.png);
 }
 
-.text {
-  background-color: tomato;
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-}
 
 @media screen and (min-width: 768px) {
   .header-container {
