@@ -1,12 +1,16 @@
 .page-footer .container {
-    width: 1230px;
-    padding: 50px 76px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.general-wrapper {
+    width: 100%;
+    padding: 40px 30px 20px;
     background-color: rgb(27, 65, 75);
     border-radius: 24px 24px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .page-footer {
@@ -15,16 +19,20 @@
 
 .footer-content-and-networks-wrapper {
     width: 100%;
-    display: flex;
 }
 
 .logo-menu-content-wrapper {
     display: flex;
-    gap: 330px;
+    justify-content: space-between;
+    /* gap: 330px; */
 }
 
 .footer-logo-text {
-    color: #FBFBFB;
+    color: #fbfbfb;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
 }
 
 .footer-menu-list {
@@ -33,12 +41,11 @@
 }
 
 .footer-menu-list-item {
-    width: 91px;
     text-align: center;
 }
 
 .footer-menu-list-item-link {
-    width: 100%;
+    width: 66px;
     padding: 15px 0;
     background-color: rgba(251, 251, 251, 0.3);
     color: #FBFBFB;
@@ -58,8 +65,9 @@
 }
 
 .footer-networks {
-    margin-left: auto;
+    margin-top: 80px;
     display: flex;
+    justify-content: center;
     gap: 8px;
 }
 
@@ -78,12 +86,12 @@
 }
 
 .footer-tagline {
-    max-width: 693px;
+    max-width: 279px;
     display: block;
-    margin: 96px auto 99px;
+    margin: 40px auto 0;
     text-align: center;
     color: #FBFBFB;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.02em;
@@ -91,16 +99,17 @@
 
 .footer-confidentials {
     width: 100%;
+    margin-top: 82px;
     display:  flex;
     justify-content: center;
-    gap: 32px;
+    gap: 20px;
 }
 
 .footer-confidentials-text {
     color: rgba(251, 251, 251, 0.4);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.18;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
 }
