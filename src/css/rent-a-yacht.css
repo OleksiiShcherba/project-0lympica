@@ -1,34 +1,35 @@
-* {
+/*  {
   margin: 0;
   padding: 0;
 }
-img {
+*/
+/* img {
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 /*-------MOB-------*/
 .rent-a-yacht {
   padding-bottom: 80px;
   font-family: 'inter', sans-serif;
   background-color: #0e1823;
-  color: #fbfbfb;
+  /* color: #fbfbfb; */
   line-height: 1.5;
 }
 
-.rent-container {
+/* .rent-container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-}
+} */
 
 .rent-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
+  /* color: #fbfbfb; */
   margin-bottom: 40px;
 }
 
@@ -126,8 +127,11 @@ img {
 }
 
 .rent-img {
+  width: 100%;
   max-width: 335px;
   border-radius: 24px;
+  height: auto;
+  display: block;
 }
 /*-------END-------*/
 
@@ -139,8 +143,8 @@ img {
   }
 
   .rent-container {
-    max-width: 768px;
-    padding: 0 32px;
+    /* max-width: 768px;
+    padding: 0 32px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,12 +198,12 @@ img {
   }
 }
 /*-------END-------*/
-/*-------DESKTOP-------*/
+/*-------DESKTOP-1280-------*/
 
 @media screen and (min-width: 1280px) {
   .rent-container {
-    max-width: 1280px;
-    padding: 0 50px;
+    /* max-width: 1280px;
+    padding: 0 50px; */
     flex-direction: row-reverse;
     align-items: center;
   }
@@ -217,6 +221,21 @@ img {
     height: 536px;
     object-fit: none;
     margin-right: 50px;
+  }
+}
+
+/*-------END-------*/
+
+/*-------DESKTOP-1440-------*/
+
+@media screen and (min-width: 1440px) {
+   .rent-container {
+    padding-right: 100px;
+  }
+ .rent-img {
+    max-width: 768px;
+    height: 536px;
+  
   }
 }
 
