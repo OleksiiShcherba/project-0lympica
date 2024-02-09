@@ -21,6 +21,7 @@
 }
 
 .header-section {
+<<<<<<< Updated upstream
   background-image: url(../header-img/phone-yacht.png);
   background-position: center;
   background-size: cover;
@@ -47,12 +48,23 @@
 }
 
 .nav-list {
+<<<<<<< Updated upstream
   display: none;
 }
 
 .header-burger {
   border: none;
   background-color: transparent;
+=======
+  display: flex;
+=======
+  background-image: url(//src/img/header-img/phone-yacht.png);
+}
+
+.text {
+  background-color: tomato;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 @media screen and (min-width: 768px) {
@@ -61,6 +73,7 @@
     padding: 0 32px;
   }
   .header-section {
+<<<<<<< Updated upstream
     background-image: url(../header-img/tablet-yacht.png);
     padding-bottom: 280px;
   }
@@ -98,6 +111,9 @@
     display: flex;
     gap: 8px;
     align-items: center;
+=======
+    background-image: url(//src/img/header-img/tablet-yacht.png);
+>>>>>>> Stashed changes
   }
   .header-burger {
     display: none;
@@ -110,6 +126,7 @@
     padding: 0 100px;
   }
   .header-section {
+<<<<<<< Updated upstream
     background-image: url(../header-img/desctop-yacht.png);
     padding-bottom: 235px;
   }
@@ -125,5 +142,8 @@
   }
   .header-container {
     max-width: 1440px;
+=======
+    background-image: url(//src/img/header-img/desctop-yacht.png);
+>>>>>>> Stashed changes
   }
 }
