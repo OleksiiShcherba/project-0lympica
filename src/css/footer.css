@@ -124,10 +124,6 @@
         font-size: 20px;
     }
 
-    .footer-menu-list {
-        margin: 0 auto;
-    }
-
     .footer-menu-list-item-link {
         width: 91px;
     }
@@ -152,3 +148,34 @@
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .page-footer .container {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .footer-general-content-wrapper {
+        padding-top: 50px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .logo-menu-content-wrapper {
+        gap: 330px;
+    }
+
+    .footer-tagline {
+        max-width: 693px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .logo-menu-content-wrapper {
+        gap: 409px;
+    }
+
+    .footer-tagline {
+        max-width: 699px;
+    }
+  }
