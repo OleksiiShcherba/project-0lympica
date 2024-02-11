@@ -19,6 +19,12 @@
 
   z-index: 1;
 }
+.yachtjet-logo {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
 .header-container {
   margin: 0 auto;
   padding: 0 20px;
@@ -50,8 +56,10 @@
 
 .header-burger {
   border: none;
-  background-color: transparent;
   display: flex;
+  background-color: transparent;
+  stroke: #1b414b;
+  fill: #1b414b;
 }
 
 @media screen and (min-width: 768px) {
