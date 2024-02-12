@@ -1,9 +1,11 @@
 .About-us-container { 
-    margin-bottom: 80px;  
+    margin-bottom: 80px;
 }
 
 .About-us-description {
     padding: 40px 20px 40px 20px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
     background: #fbfbfb;
 }
 
@@ -32,6 +34,7 @@
     line-height: 1.16667;
     letter-spacing: -0.02em;
     color: #040306;
+    opacity: 0.4;
 }
 
 .About-images {
