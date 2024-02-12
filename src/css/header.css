@@ -101,6 +101,7 @@
     gap: 4px;
   }
   .header-button {
+    display: block;
     font-weight: 400;
     font-size: 9px;
     line-height: 1.3;
