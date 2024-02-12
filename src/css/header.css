@@ -199,15 +199,10 @@
 }
 
 .cross-button {
+  display: flex;
+  padding: 0;
   border: none;
   background-color: transparent;
-
-  fill: #1b414b;
-}
-
-.cross-button:hover,
-.cross-button:focus {
-  stroke: #055545;
 }
 
 .menu-buttons {
