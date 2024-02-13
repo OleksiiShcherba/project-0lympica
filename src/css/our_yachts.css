@@ -21,7 +21,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    width: 319px;
+    max-width: 319px;
 }
 .ouryachts-list {
     margin-top: 40px;
@@ -133,7 +133,7 @@ justify-content: flex-end;
         font-size: 48px;
         line-height: 1;
         letter-spacing: -0.02em;
-        width: 645px;
+        max-width: 645px;
         margin: 0 auto;
         align-items: center;
     }
